@@ -19,6 +19,7 @@ link to the dataset can be found here:
 - Other Libraries: NumPy, Pandas
 
 ### Usage and Utilization
+
 To utilize this AI image classification project for road transportation images, follow these steps to set up your environment and run the code: Before you begin, make sure you have Python and pip (Python package installer) installed on your system.
 - Open your terminal or command prompt and execute the following command to install the required libraries:pip install numpy matplotlib Pillow tensorflow scikit-learn
 This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), TensorFlow, and scikit-learn.
@@ -27,7 +28,7 @@ This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), Tenso
   
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles.
-#### Model 1:
+#### First Model:
 - The model comprises two convolutional layers followed by a dense layer. 
 - The architecture consists of 64 filters in the first convolutional layer and 32 filters in the second convolutional layer. 
 - Rectified Linear Unit (ReLU) activation is used to  introduce non-linearity in the network. 
@@ -38,7 +39,7 @@ Two architecture of CNN's were considered while creating a model that can accura
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
     
-#### Model 2:  
+#### Second Model :  
 - Three successive convolutional layers are implemented.
 - The initial layer consists of 64 filters with a receptive field of 3x3, employing the rectified linear unit (ReLU) activation function.
 - The subsequent two layers are equipped with 128 and 256 filters respectively, further enhancing feature extraction.
@@ -64,9 +65,11 @@ The model's performance was rigorously assessed through a comprehensive set of e
 
 - Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
 
+- Randomly predicting and displaying images in the test 2 folder.
+  
 ### Results
 
-#### Model 1
+#### First Model 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A1.png)
 
@@ -80,19 +83,39 @@ The model's performance was rigorously assessed through a comprehensive set of e
 better generalization performance.
 - The test accuracy of the model is approximately 60.67%, indicating that it correctly classified around 60.67% of the test samples.
 - The precision of the model is 0.6411, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 64.11% of the time.
+
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/7.png)
+
+Overall, the confusion matrix suggests that there is some level of misclassification and 
+confusion between multiple classes. But we can still see that some classes has high  number of true positives
+
+From the confusion matrix: These were observed: 
+
+- Ambulance: The model correctly predicted 3 samples as ambulance (true positives), while incorrectly predicting them as Classes 2, 3, 4, and 5. It also predicted 4 amnulances samples as bus, 8 as car, and 5 as motorcycle. 
+
+- Bicycle: The model correctly predicted 22 samples as bicycle (true positives), but incorrectly predicted 1 bicycle sample as car, and 27 as motorcycle. This suggests some misclassification between bicycle and other classes, particularly motorcycle.
+
+- Bus: The model correctly predicted 41 samples as bus (true positives), but incorrectly predicted 2 bus samples as ambulance, 4 as car, and 2 as motorcycle.
+
+- Car: The model correctly predicted 25 samples as car (true positives), but incorrectly predicted 1 car sample as bicycle, 4 as bus, 14 as motorcycle, and 6 as taxi. 
+
+- Motorcycle: The model correctly predicted 43 samples as motorcycle (true positives), but incorrectly predicted 3 motorcycle samples as bicycle, 1 as bus, 2 as car, and 1 as taxi.
   
+Taxi: The model correctly predicted 11 samples as taxi (true positives), but incorrectly predicted 2 taxi samples as ambulance, 4 as bus, and 2 as car. 
+
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A3.png)
 
-The model was used in predicting 20 random images, it appears 2 images were misclassified.
+The model was used in predicting 20 random images, it appears 3 images were misclassified.
 
-#### Model 3
+#### Second Model 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A4.png)
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A5.png)
 
+- The learning curves demonstrate that the model trained with three CNN's exhbit some overfitting.
 
-
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/8.png)
 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A6.png)
