@@ -48,7 +48,8 @@ Two architecture of CNN's were considered while creating a model that can accura
 - The final dense layer, comprised of 6 neurons, utilizes the softmax activation function for multiclass classification.
 - The model is trained over 100 epochs, with a batch size of 32, on the augmented training dataset.
 
-![GitHub Logo]()
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/6.png)
+
 ### Model Evaluation
 
 The model's performance was rigorously assessed through a comprehensive set of evaluation metrics, providing a holistic understanding of its capabilities and limitations.
@@ -61,11 +62,12 @@ The model's performance was rigorously assessed through a comprehensive set of e
 
 - Precision: Precision, a quintessential metric in multiclass classification, was employed to determine the accuracy of positive predictions. It illuminates the model's effectiveness in correctly identifying true positives among predicted positives.
 
+- Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
+
 ### Results
 #### Model 1
 
 
-- Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
 
 
 
