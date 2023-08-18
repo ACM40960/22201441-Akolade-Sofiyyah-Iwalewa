@@ -79,11 +79,17 @@ The model's performance was rigorously assessed through a comprehensive set of e
 - The final validation loss is 0.7914. The validation loss measures how well the model generalizes to unseen data. Similar to training loss, a lower validation loss indicates 
 better generalization performance.
 - The test accuracy of the model is approximately 60.67%, indicating that it correctly classified around 60.67% of the test samples.
-- The precision of the model is 0.6411, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 64.11% of the time
+- The precision of the model is 0.6411, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 64.11% of the time.
+  
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A3.png)
+
+The model was used in predicting 20 random images, it appears 2 images were misclassified.
 
 #### Model 3
-![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A3.png)
+
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A4.png)
+
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A5.png)
 
 
 
