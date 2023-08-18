@@ -21,7 +21,7 @@ link to the dataset can be found here:
 ### Usage and Utilization
 
 To utilize this AI image classification project for road transportation images, follow these steps to set up your environment and run the code: Before you begin, make sure you have Python and pip (Python package installer) installed on your system.
-- Open your terminal or command prompt and execute the following command to install the required libraries:pip install numpy matplotlib Pillow tensorflow scikit-learn
+- Open your terminal or command prompt and execute the following command to install the required libraries: "pip install numpy matplotlib Pillow tensorflow scikit-learn"
 This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), TensorFlow, and scikit-learn.
 
 - For image classification, run this code in your python: python image_classification.py
@@ -101,11 +101,11 @@ From the confusion matrix: These were observed:
 
 - Motorcycle: The model correctly predicted 43 samples as motorcycle (true positives), but incorrectly predicted 3 motorcycle samples as bicycle, 1 as bus, 2 as car, and 1 as taxi.
   
-Taxi: The model correctly predicted 11 samples as taxi (true positives), but incorrectly predicted 2 taxi samples as ambulance, 4 as bus, and 2 as car. 
+- Taxi: The model correctly predicted 11 samples as taxi (true positives), but incorrectly predicted 2 taxi samples as ambulance, 4 as bus, and 2 as car. 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A3.png)
 
-The model was used in predicting 20 random images, it appears 3 images were misclassified.
+- The model was used in predicting 20 random images, it appears 3 images were misclassified.
 
 #### Second Model 
 
@@ -119,14 +119,11 @@ The model was used in predicting 20 random images, it appears 3 images were misc
 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A6.png)
-The model was used in predicting 20 random images, all the images were properly classified.
 
+- The model was used in predicting 20 random images, it appears only an image was misclassified..
 
-
-
-
-
-
-
-
+### References
+1) Machine learning and AI, Dr. Micheal Fop,UCD.
+2) Image Classification Based On CNN: A Survey Ahmed A. Elngar1, Mohamed Arafa2, Amar Fathy3, Basma Moustafa4 ,Omar Mahmoud5 and Mohamed Shaban6*, Nehal Fawzy
+3) S. Albawi, T. A. Mohammed and S. Al-Zawi, ”Understanding of a convolutional neural network,” 2017 International Conference on Engineering andTechnology (ICET), Antalya, Turkey, 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
 
