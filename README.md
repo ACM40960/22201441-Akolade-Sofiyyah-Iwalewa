@@ -24,7 +24,7 @@ To utilize this AI image classification project for road transportation images, 
 This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), TensorFlow, and scikit-learn.
 
 - For image classification, run this code in your python: python image_classification.py
-- 
+  
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles.
 #### Model 1:
@@ -90,6 +90,15 @@ The model was used in predicting 20 random images, it appears 2 images were misc
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A4.png)
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A5.png)
+
+
+
+
+
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A6.png)
+The model was used in predicting 20 random images, all the images were properly classified.
+
+
 
 
 
