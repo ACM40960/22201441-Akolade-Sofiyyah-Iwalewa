@@ -69,6 +69,7 @@ The model's performance was rigorously assessed through a comprehensive set of e
 #### Model 1
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A1.png)
+
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A2.png)
 
 - The learning curves demonstrate that the model trained with data augmentation performs well on the validation set, indicating minimal overfitting. The stable training process suggests that the Adam optimizer is a suitable choice for this task.
