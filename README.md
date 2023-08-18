@@ -119,18 +119,12 @@ From the confusion matrix: These were observed:
 
 Overall, the confusion matrix suggests that there is minimal misclassification and confusion between multiple classes. From the confusion matrix: These were observed: 
 
-Class 0 (Car): The model correctly predicted 6 samples as Class 0 (Car), while misclassifying 4 as Class 2, 9 as Class 3, and 1 as Class 4. There is some confusion between Class 0 and other classes.
-
-Class 1 (Motorcycle): The model correctly predicted 41 samples as Class 1 (Motorcycle), while misclassifying 2 as Class 3 and 7 as Class 4. This suggests a good performance in identifying Class 1, with relatively minor confusion.
-
-Class 2 (Bicycle): The model correctly predicted 30 samples as Class 2 (Bicycle), but misclassified 2 as Class 0, 13 as Class 3, and 4 as Class 5. Some confusion is evident between Class 2 and other classes.
-
-Class 3 (Ambulance): The model correctly predicted 38 samples as Class 3 (Ambulance), while misclassifying 1 as Class 0, 3 as Class 1, 3 as Class 2, and 2 as Class 5. There appears to be confusion between Class 3 and other classes.
-
-Class 4 (Bus): The model correctly predicted 30 samples as Class 4 (Bus), but misclassified 13 as Class 1, 2 as Class 2, and 5 as Class 3. Some confusion exists between Class 4 and other classes.
-
-Class 5 (Taxi): The model correctly predicted 13 samples as Class 5 (Taxi), while misclassifying 1 as Class 0, 5 as Class 3, and 5 as Class 5. There is some confusion between Class 5 and other classes
-
+- Ambulance: The model correctly predicted 6 samples as ambulance, while misclassifying 4 as bus, 9 as car, and 1 as motocycle. 
+- Bicycle: The model correctly predicted 41 samples as bicycle, while misclassifying 2 as car and 7 as motorcycle. This suggests a good performance in identifying bicycle, with relatively minor confusion.
+- Bus: The model correctly predicted 30 samples as bus, but misclassified 2 as Class ambulance, 13 as car, and 4 as taxi. 
+- Car: The model correctly predicted 38 samples as car, while misclassifying 1 as ambulance, 3 as bicycle, 3 as bus, and 2 as taxi. 
+- Motorcycle: The model correctly predicted 30 samples as motocycle, but misclassified 13 as bicycle, 2 as bus, and 5 as car.
+- Taxi: The model correctly predicted 13 samples as Taxi , while misclassifying 1 as ambulance, 5 as car, and 5 as motocycle. 
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/A6.png)
 
@@ -142,10 +136,7 @@ Class 5 (Taxi): The model correctly predicted 13 samples as Class 5 (Taxi), whil
 3) S. Albawi, T. A. Mohammed and S. Al-Zawi, ”Understanding of a convolutional neural network,” 2017 International Conference on Engineering andTechnology (ICET), Antalya, Turkey, 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
 
 ### Future Work
-In the realm of future enhancements, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to unravel the intricacies of alternative neural network structures, striving for heightened accuracy and broader applicability.
+In the realm of future enhancements, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability.
 
-Furthermore, I am compelled to venture beyond the existing evaluation metrics, embracing a wider spectrum of assessment tools to gain a more comprehensive understanding of model performance. This entails probing into additional evaluation metrics that illuminate distinctive facets of classification prowess, augmenting the insights extracted from the predictive landscape.
-
-By undertaking these exploratory paths, I aim to refine and enrich the image classification framework, charting a course towards an even more sophisticated and potent AI-driven solution for road transportation image categorization.
 
 
