@@ -65,7 +65,19 @@ The model's performance was rigorously assessed through a comprehensive set of e
 - Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
 
 ### Results
+
 #### Model 1
+- The learning curves demonstrate that the model trained with data augmentation performs well on the validation set, indicating minimal overfitting. The stable training process suggests that the Adam optimizer is a suitable choice for this task.
+- The final training accuracy is approximately 69.39%. This means the model correctly classified about 69.39% of the training samples. 
+- Validation Accuracy: The final validation accuracy is around 71.07%. This indicates that the model achieved an accuracy of . 71.07% approximately on the validation set, which consists of unseen data.
+- The final training loss is 0.7746. The training loss is a measure of how well the model's predictions match the ground truth labels during training. A lower training loss indicates that the model's predictions are closer to the actual labels, which is a positive sign.
+- The final validation loss is 0.7914. The validation loss measures how well the model generalizes to unseen data. Similar to training loss, a lower validation loss indicates 
+better generalization performance.
+- The test accuracy of the model is approximately 60.67%, indicating that it correctly classified around 60.67% of the test samples.
+- The precision of the model is 0.6411, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 64.11% of the time
+
+
+
 
 
 
