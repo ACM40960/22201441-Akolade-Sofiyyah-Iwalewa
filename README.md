@@ -48,6 +48,7 @@ Two architecture of CNN's were considered while creating a model that can accura
 - The final dense layer, comprised of 6 neurons, utilizes the softmax activation function for multiclass classification.
 - The model is trained over 100 epochs, with a batch size of 32, on the augmented training dataset.
 
+![GitHub Logo]()
 ### Model Evaluation
 
 The model's performance was rigorously assessed through a comprehensive set of evaluation metrics, providing a holistic understanding of its capabilities and limitations.
