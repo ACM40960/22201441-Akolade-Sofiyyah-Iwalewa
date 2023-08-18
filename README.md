@@ -36,8 +36,8 @@ Two architecture of CNN's were considered while creating a model that can accura
 - To explore the impact of data augmentation on the classification performance, I trained the model using an augmented dataset.Data augmentation is a technique that generates new training samples by applying random transformations to the original images, such as rotation, flipping, and scaling. 
 - This augmentation process tends to enhance the model's ability to generalize and improve its performance on unseen data.
 
-  
-  
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
+    
 #### Model 2:  
 - Three successive convolutional layers are implemented.
 - The initial layer consists of 64 filters with a receptive field of 3x3, employing the rectified linear unit (ReLU) activation function.
