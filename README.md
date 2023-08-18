@@ -35,6 +35,8 @@ Two architecture of CNN's were considered while creating a model that can accura
 - Finally, the model ends with an output layer with 6 units (corresponding to the six classes) and a  softmax activation function for multiclass classification.
 - To explore the impact of data augmentation on the classification performance, I trained the model using an augmented dataset.Data augmentation is a technique that generates new training samples by applying random transformations to the original images, such as rotation, flipping, and scaling. 
 - This augmentation process tends to enhance the model's ability to generalize and improve its performance on unseen data.
+
+  
   
 #### Model 2:  
 - Three successive convolutional layers are implemented.
@@ -57,6 +59,10 @@ The model's performance was rigorously assessed through a comprehensive set of e
 - Test Accuracy: The test accuracy metric gauges the model's predictive prowess on unseen data. This statistic offers a reliable measure of the model's generalization ability.
 
 - Precision: Precision, a quintessential metric in multiclass classification, was employed to determine the accuracy of positive predictions. It illuminates the model's effectiveness in correctly identifying true positives among predicted positives.
+
+### Results
+#### Model 1
+
 
 - Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
 
