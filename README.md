@@ -31,3 +31,11 @@ Two architecture of CNN's were considered while creating a model that can accura
 - This augmentation process tends to enhance the model's ability to generalize and improve its performance on unseen data.
   
 #### Model 2:  
+- Three successive convolutional layers are implemented.
+- The initial layer consists of 64 filters with a receptive field of 3x3, employing the rectified linear unit (ReLU) activation function.
+- The subsequent two layers are equipped with 128 and 256 filters respectively, further enhancing feature extraction.
+- Following each convolutional layer, a MaxPooling2D layer with a 2x2 pool size is applied to downsample the spatial dimensions, aiding in feature retention and computational efficiency.
+- The convolutional outputs are then flattened into a one-dimensional vector, facilitating the transition to fully connected layers.
+- A dense layer comprising 128 neurons, activated by ReLU, is introduced to facilitate high-level feature comprehension and integration.
+- The final dense layer, comprised of 6 neurons, utilizes the softmax activation function for multiclass classification.
+- The model is trained over 100 epochs, with a batch size of 32, on the augmented training dataset.
