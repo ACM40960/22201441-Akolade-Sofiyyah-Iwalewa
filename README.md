@@ -7,13 +7,11 @@ This project focus is on Convolutional Network Networks (CNNs) for the multiclas
 ### Dataset
 The dataset employed here is an extract from the 'TAU Vehicle Type Recognition Competition' dataset. Originally comprising 8 vehicle classes within its training folder, I meticulously narrowed it down to 6 distinct classes, I had the total of 3394 images in my training folder. I also included 1127 images from kaggles training data as my validation images in the validation folder. I also have a 'test2' folder which contains between 15 to 50 samples for each category, which serves as the canvas for predictive tasks. As an auxiliary component, the 'test' folder features a compilation of 20 randomly selected images, forming a loop through which predictions are generated and subsequently showcased alongside their anticipated classifications.
 
-link to the dataset can be found here: 
+link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5LIyjCAa8CqX0e6TD-10OJbzbD/view?usp=drive_link
 
 ### Tools and libaries Used:
 
 - Programming Language: Python
-
-ll
 
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles. Both models was trained using data augumentation.
