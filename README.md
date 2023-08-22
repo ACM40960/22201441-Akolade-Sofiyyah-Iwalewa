@@ -28,26 +28,12 @@ This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), Tenso
   
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles.
+
 #### First Model:
-- The model comprises two convolutional layers followed by a dense layer. 
-- The architecture consists of 64 filters in the first convolutional layer and 32 filters in the second convolutional layer. 
-- Rectified Linear Unit (ReLU) activation is used to  introduce non-linearity in the network. 
-- The output from the second convolutional layer is then flattened and connected to a dense layer with 128 units and ReLU activation.
-- Finally, the model ends with an output layer with 6 units (corresponding to the six classes) and a  softmax activation function for multiclass classification.
-- To explore the impact of data augmentation on the classification performance, I trained the model using an augmented dataset.Data augmentation is a technique that generates new training samples by applying random transformations to the original images, such as rotation, flipping, and scaling. 
-- This augmentation process tends to enhance the model's ability to generalize and improve its performance on unseen data.
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
     
 #### Second Model :  
-- Three successive convolutional layers are implemented.
-- The initial layer consists of 64 filters with a receptive field of 3x3, employing the rectified linear unit (ReLU) activation function.
-- The subsequent two layers are equipped with 128 and 256 filters respectively, further enhancing feature extraction.
-- Following each convolutional layer, a MaxPooling2D layer with a 2x2 pool size is applied to downsample the spatial dimensions, aiding in feature retention and computational efficiency.
-- The convolutional outputs are then flattened into a one-dimensional vector, facilitating the transition to fully connected layers.
-- A dense layer comprising 128 neurons, activated by ReLU, is introduced to facilitate high-level feature comprehension and integration.
-- The final dense layer, comprised of 6 neurons, utilizes the softmax activation function for multiclass classification.
-- The model is trained over 100 epochs, with a batch size of 32, on the augmented training dataset.
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/6.png)
 
