@@ -9,24 +9,16 @@ The dataset employed here is an extract from the 'TAU Vehicle Type Recognition C
 
 link to the dataset can be found here: 
 
-### Tools and Technologies Used:
+### Tools and libaries Used:
 
 - Programming Language: Python
-- Deep Learning Framework: TensorFlow
-- Image Preprocessing: Keras ImageDataGenerator
-- Data Visualization: Matplotlib
-- Other Libraries: NumPy, Pandas
 
-### Usage and Utilization
 
-To utilize this AI image classification project for road transportation images, follow these steps to set up your environment and run the code: Before you begin, make sure you have Python and pip (Python package installer) installed on your system.
-- Open your terminal or command prompt and execute the following command to install the required libraries: "pip install numpy matplotlib Pillow tensorflow scikit-learn"
-This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), TensorFlow, and scikit-learn.
-
-- For image classification, run this code in your python: python image_classification.py
-  
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles. Both models was trained using data augumentation.
+
+#### Data Augumentation
+
 #### First Model:
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
