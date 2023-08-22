@@ -13,6 +13,7 @@ link to the dataset can be found here:
 
 - Programming Language: Python
 
+ll
 
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles. Both models was trained using data augumentation.
