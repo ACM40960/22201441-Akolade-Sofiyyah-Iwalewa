@@ -2,10 +2,10 @@
 
 ## AI IMAGE CLASSIFICATION: ROAD TRANSPORTATION IMAGES
 ### Project Overview
-This project focus is on Convolutional Network Networks (CNNs) for the multiclass classification encompassing six distinct vehicle categories: Ambulance, Bicycle, Bus, Car, Motorcycle and Taxi. The core aim of the poject is the creation of sophistiscated algrothms capable of autonomously discerning and categorizing images into these predefined classes, like human do. The primary goal is to develop an accurate and efficient image classification system that can distinguish between these diverse classes of vehicles.
+This project focus is on Convolutional Network Networks (CNNs) for the multiclass classification encompassing six distinct vehicle categories: Ambulance, Bicycle, Bus, Car, Motorcycle and Taxi. The core aim of the poject is the creation of sophistiscated algrothms capable of autonomously categorizing images into these predefined classes, like human do. The primary goal is to develop an accurate and efficient image classification system that can distinguish between these diverse classes of vehicles.
 
 ### Dataset
-The dataset employed here is an extract from the 'TAU Vehicle Type Recognition Competition' dataset. Originally comprising 8 vehicle classes within its training folder, I meticulously narrowed it down to 6 distinct classes, thereby assembling a dataset housing a collective sum of 3394 images. This subset was derived from Kaggle's primary training repository, from which I further curated 1127 images and designated them to a dedicated validation folder. Meanwhile, the 'test2' directory encompasses a variable count of images, spanning between 15 to 50 samples, which serves as the canvas for predictive tasks. As an auxiliary component, the 'test' folder features a compilation of 20 randomly selected images, forming a loop through which predictions are generated and subsequently showcased alongside their anticipated classifications.
+The dataset employed here is an extract from the 'TAU Vehicle Type Recognition Competition' dataset. Originally comprising 8 vehicle classes within its training folder, I meticulously narrowed it down to 6 distinct classes, I had the total of 3394 images in my training folder. I also included 1127 images from kaggles training data as my validation images in the validation folder. I also have a 'test2' folder which contains between 15 to 50 samples for each category, which serves as the canvas for predictive tasks. As an auxiliary component, the 'test' folder features a compilation of 20 randomly selected images, forming a loop through which predictions are generated and subsequently showcased alongside their anticipated classifications.
 
 link to the dataset can be found here: 
 
@@ -14,7 +14,6 @@ link to the dataset can be found here:
 - Programming Language: Python
 - Deep Learning Framework: TensorFlow
 - Image Preprocessing: Keras ImageDataGenerator
-- Hardware Acceleration: NVIDIA GPUs
 - Data Visualization: Matplotlib
 - Other Libraries: NumPy, Pandas
 
@@ -27,8 +26,7 @@ This will install the necessary packages: NumPy, Matplotlib, Pillow (PIL), Tenso
 - For image classification, run this code in your python: python image_classification.py
   
 ### Model Architecture
-Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles.
-
+Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles. Both models was trained using data augumentation.
 #### First Model:
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
@@ -47,11 +45,11 @@ The model's performance was rigorously assessed through a comprehensive set of e
 
 - Test Accuracy: The test accuracy metric gauges the model's predictive prowess on unseen data. This statistic offers a reliable measure of the model's generalization ability.
 
-- Precision: Precision, a quintessential metric in multiclass classification, was employed to determine the accuracy of positive predictions. It illuminates the model's effectiveness in correctly identifying true positives among predicted positives.
+- Precision: Precision was employed to determine the accuracy of positive predictions. It illuminates the model's effectiveness in correctly identifying true positives among predicted positives.
 
 - Confusion Matrix: The confusion matrix provided an intuitive depiction of the model's classification performance across all classes. This matrix unveils the distribution of correct and incorrect predictions, allowing for in-depth analysis of potential areas of confusion.
 
-- Randomly predicting and displaying images in the test 2 folder.
+- Randomly predicting and displaying images in the "test folder".
   
 ### Results
 
@@ -72,11 +70,8 @@ better generalization performance.
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/7.png)
 
-Overall, the confusion matrix suggests that there is some level of misclassification and 
-confusion between multiple classes. But we can still see that some classes has high  number of true positives
-
-From the confusion matrix: These were observed: 
-
+ From the confusion matrix, These are the observations: 
+ 
 - Ambulance: The model correctly predicted 3 samples as ambulance (true positives), while incorrectly predicting them as Classes 2, 3, 4, and 5. It also predicted 4 amnulances samples as bus, 8 as car, and 5 as motorcycle. 
 
 - Bicycle: The model correctly predicted 22 samples as bicycle (true positives), but incorrectly predicted 1 bicycle sample as car, and 27 as motorcycle. This suggests some misclassification between bicycle and other classes, particularly motorcycle.
@@ -103,7 +98,7 @@ From the confusion matrix: These were observed:
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/8.png)
 
-Overall, the confusion matrix suggests that there is minimal misclassification and confusion between multiple classes. From the confusion matrix: These were observed: 
+ From the confusion matrix: These are the observations 
 
 - Ambulance: The model correctly predicted 6 samples as ambulance, while misclassifying 4 as bus, 9 as car, and 1 as motocycle. 
 - Bicycle: The model correctly predicted 41 samples as bicycle, while misclassifying 2 as car and 7 as motorcycle. This suggests a good performance in identifying bicycle, with relatively minor confusion.
@@ -122,7 +117,7 @@ Overall, the confusion matrix suggests that there is minimal misclassification a
 3) S. Albawi, T. A. Mohammed and S. Al-Zawi, ”Understanding of a convolutional neural network,” 2017 International Conference on Engineering andTechnology (ICET), Antalya, Turkey, 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
 
 ### Future Work
-In the realm of future enhancements, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability.
+In the nearest future, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability. I also would provide a better representation of the confusion matrix.
 
 
 
