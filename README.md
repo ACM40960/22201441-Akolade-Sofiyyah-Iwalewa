@@ -12,6 +12,9 @@ link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5L
 ### Usage
 
 - Programming Language: Python 3.7
+
+#### Installation
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/3.png)
   
 #### Python libararies 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/1.png)
