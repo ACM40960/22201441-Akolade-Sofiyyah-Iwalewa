@@ -11,6 +11,8 @@ link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5L
 
 ### Usage
 
+Note: This project is very time consuming and compuataional demanding
+
 - Programming Language: Python 3.7
 
 #### Installation
