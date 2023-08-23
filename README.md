@@ -9,9 +9,9 @@ The dataset employed here is an extract from the 'TAU Vehicle Type Recognition C
 
 link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5LIyjCAa8CqX0e6TD-10OJbzbD/view?usp=drive_link
 
-### Tools and libaries Used:
+### Usage
 
-- Programming Language: Python
+- Programming Language: Python 3.7
   
 #### Python libararies 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/1.png)
