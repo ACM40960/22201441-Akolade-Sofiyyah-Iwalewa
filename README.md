@@ -5,7 +5,7 @@
 This project focus is on Convolutional Network Networks (CNNs) for the multiclass classification encompassing six distinct vehicle categories: Ambulance, Bicycle, Bus, Car, Motorcycle and Taxi. The core aim of the poject is the creation of sophistiscated algrothms capable of autonomously categorizing images into these predefined classes, like human do. The primary goal is to develop an accurate and efficient image classification system that can distinguish between these diverse classes of vehicles.
 
 ### Dataset
-The dataset employed here is an extract from the 'TAU Vehicle Type Recognition Competition' dataset. Originally comprising 8 vehicle classes within its training folder, I meticulously narrowed it down to 6 distinct classes, I had the total of 3394 images in my training folder. I also included 1127 images from kaggles training data as my validation images in the validation folder. I also have a 'test2' folder which contains between 15 to 50 samples for each class, which serves as the canvas for predictive tasks. As an auxiliary component, the 'test' folder features a compilation of 20 randomly selected images, forming a loop through which predictions are generated and subsequently showcased alongside their anticipated classifications.
+The dataset employed here is an extract from the 'TAU Vehicle Type Recognition Competition' dataset. Originally comprising 8 vehicle classes within its training folder, I meticulously narrowed it down to 6 distinct classes, I had the total of 3394 images in my training folder(2.95% Ambulance, 19.33% bicycle, 9.96% bus, 17% car, 34.62% motorcycle, 16.14% taxi). I also included 1127 images from kaggles training data as my validation images in the validation folder, which is approximately half of images in each of the class. I also have a 'test2' folder which contains between 15 to 50 samples for each class, which serves as the canvas for predictive tasks. As an auxiliary component, the 'test' folder features a compilation of 20 randomly selected images, forming a loop through which predictions are generated and subsequently showcased alongside their anticipated classifications.
 
 link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5LIyjCAa8CqX0e6TD-10OJbzbD/view?usp=drive_link
 
@@ -126,5 +126,7 @@ better generalization performance.
 ### Future Work
 In the nearest future, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability. I also would provide a better representation of the confusion matrix.
 
+### Lincense 
+There is no lincense to contribute to this project, however suggestions can be sent to sofiyyahakolade72@gmail.com
 
 
