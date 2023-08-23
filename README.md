@@ -72,7 +72,7 @@ better generalization performance.
 
  From the confusion matrix, These are the observations: 
  
-- Ambulance: The model correctly predicted 3 samples as ambulance (true positives), while incorrectly predicting them as Classes 2, 3, 4, and 5. It also predicted 4 amnulances samples as bus, 8 as car, and 5 as motorcycle. 
+- Ambulance: The model correctly predicted 3 samples as ambulance (true positives). It also predicted 4 amnulances samples as bus, 8 as car, and 5 as motorcycle. 
 
 - Bicycle: The model correctly predicted 22 samples as bicycle (true positives), but incorrectly predicted 1 bicycle sample as car, and 27 as motorcycle. This suggests some misclassification between bicycle and other classes, particularly motorcycle.
 
@@ -97,7 +97,7 @@ better generalization performance.
 - The learning curves demonstrate that the model trained with three CNN's exhbit some overfitting.
 - The final training accuracy is approximately 90.4%. This means the model correctly classified about 90.4% of the training samples. 
 - Validation Accuracy: The final validation accuracy is approximately 73.38%. This indicates that the model achieved an accuracy of . 73.38% approximately on the validation set, which consists of unseen data.
-- The final training loss is 0.0.2602. The model has a lower training loss indicates that the model's predictions are closer to the actual labels, which is a positive sign.
+- The final training loss is 0.2602. The model has a lower training loss indicates that the model's predictions are closer to the actual labels, which is a positive sign.
 - The final validation loss is 1.03006. The validation loss measures how well the model generalizes to unseen data. The validation loss is not high. 
 - The test accuracy of the model is approximately 66%, indicating that it correctly classified around 6% of the6 test samples.
 - The precision of the model is 0.6769, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 67.7% of the time.
@@ -124,7 +124,7 @@ better generalization performance.
 3) S. Albawi, T. A. Mohammed and S. Al-Zawi, ”Understanding of a convolutional neural network,” 2017 International Conference on Engineering andTechnology (ICET), Antalya, Turkey, 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
 
 ### Future Work
-In the nearest future, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability. I also would provide a better representation of the confusion matrix.
+In the nearest future, my aspiration involves training more diverse model architectures while working with a more samples of training and validation data. This endeavor aims to explore alternative neural network structures, that might lead to better accuracy and precision broader applicability. I also would provide a better representation of the confusion matrix and expolore other classification metrics
 
 ### Lincense 
 There is no lincense to contribute to this project, however suggestions can be sent to sofiyyahakolade72@gmail.com
