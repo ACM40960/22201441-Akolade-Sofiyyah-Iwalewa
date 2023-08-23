@@ -21,6 +21,8 @@ Two architecture of CNN's were considered while creating a model that can accura
 
 #### Data Augumentation
 
+![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/2.png)
+
 #### First Model:
 
 ![GitHub Logo](https://github.com/ACM40960/22201441-Akolade-Sofiyyah-Iwalewa/blob/main/5.png)
