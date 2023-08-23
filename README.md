@@ -99,7 +99,7 @@ better generalization performance.
 - Validation Accuracy: The final validation accuracy is approximately 73.38%. This indicates that the model achieved an accuracy of . 73.38% approximately on the validation set, which consists of unseen data.
 - The final training loss is 0.2602. The model has a lower training loss indicates that the model's predictions are closer to the actual labels, which is a positive sign.
 - The final validation loss is 1.03006. The validation loss measures how well the model generalizes to unseen data. The validation loss is not high. 
-- The test accuracy of the model is approximately 66%, indicating that it correctly classified around 6% of the6 test samples.
+- The test accuracy of the model is approximately 66%, indicating that it correctly classified around 66% of the6 test samples.
 - The precision of the model is 0.6769, which indicates that, on average when the model predicts a sample to belong to a certain class, it is correct approximately 67.7% of the time.
 
 
