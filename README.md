@@ -12,6 +12,7 @@ link to the dataset can be found here: https://drive.google.com/file/d/1br2f-h5L
 ### Tools and libaries Used:
 
 - Programming Language: Python
+#### Python libararies 
 
 ### Model Architecture
 Two architecture of CNN's were considered while creating a model that can accurately classify six distinct classes of vehicles. Both models was trained using data augumentation.
